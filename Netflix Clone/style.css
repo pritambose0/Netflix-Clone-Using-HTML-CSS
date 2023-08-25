@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #000;
+    color: #fff;
+}
+.header{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7) 0, rgba(0, 0, 0, 0.7)),url('images/main.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 18px 0;
+    gap: 25em;
+}
+.logo{
+    width: 147px;
+}
+button{
+    outline: 0;
+    border: 0;
+    padding: 10px 20px;
+    margin: 10px;
+    background: #db0001;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+}
+.lang-btn{
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 0.3px solid #fff;
+    padding: 7px 22px;
+}
+.lang-btn img{
+    width: 8px;
+    height: 5px;
+    margin-left: 8px;
+}
+.header-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top: 60px;
+}
+.header-content h1{
+    font-size: 46px;
+    font-weight: 600;
+    max-width: 650px;
+    padding: 5px;
+
+}
+.header-content h2{
+    font-size: 20px;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+.header-content p{
+    font-size: 1.3rem;
+    margin-top: 58x;
+
+}
+.email{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 5px;
+}
+.email input{
+    flex: 1;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+    border: 1px solid #fff;
+    height: 55px;
+    border-radius: 4px;
+}
+::placeholder{
+    padding-left: 20px;
+    opacity: 0.6;
+    color: #fff;
+    font-size: 15px;
+}
+form button{
+    height: 55px;
+    font-size: 25px;
+}
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 65px 10%;
+    border-top: 8px solid rgb(35,35,35);
+}
+.left-content h1{
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+.left-content p{
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.right-content img{
+    height: 50vh;
+}
+.faq{
+    border-top: 8px solid rgb(35,35,35);
+}
+.faq h1{
+    font-size: 3.1rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 40px;
+}
+.faq-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.faq-btn button{
+    height: 4.8rem;
+    width: 75%;
+    font-size: 1.3rem;
+    text-align: start;
+    background: rgb(45,45,45);
+    border-radius: 0;
+    margin-bottom: -2px;
+}
+.faq-btn button:hover{
+    background: rgb(85, 83, 83);
+    transition: 0.5s;
+}
+.faq-content{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top: 60px;
+}
+.faq-content p{
+    font-size: 1.3rem;
+    margin-top: 58x;
+}
+.faq-content .email input{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
